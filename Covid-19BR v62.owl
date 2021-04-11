@@ -1,0 +1,1198 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2020/9/ontology-teste"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/ontologies/2020/9/ontology-teste">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aglomeracoes-Massa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcool_Gel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambiente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area-Profissional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area-Profissional-SC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atitudes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atividades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CHAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casos-Acumulados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casos-Novos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centralidade-Grau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centralidade-Participante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comorbidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conhecimentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contexto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordenacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordenacao-Resposta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordenadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Covid-19BR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criterio-Confirmacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data-Contexto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data-Obito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data-Resultado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Densidade-Area-Profissional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Densidade-CHAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Densidade-Conhecimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Densidade-Conhecimento-Localidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desastre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desastres-Emergencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dominio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elemento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Em-Acompanhamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipamento-Usuario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espaço"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estado-BR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estimativa-Lotacao-UTI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estrutura-Comando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fluxos-Atendimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grupo-Afetado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grupo-Risco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habilidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospitais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identificacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indices-Risco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infaestrutura-SC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infraestrutura-BR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infraestruturas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insumos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insumos-BR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internacao-UTI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latidude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leitos-Clinicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leitos-UTI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leitos-UTI-Ativos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leitos-UTI-Local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leitos-UTI-necessarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localizacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Longitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luvas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mascaras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metricas-ARS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Municipio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Municipio-BR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Niveis-Resposta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nivel-Risco-Local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Novos-Leitos-UTI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Novos-Leitos-UTI-Ativados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numero-Obitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obitos-Novos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocorrencias-BR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocorrencias-SC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oculos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfil-Competencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfil-Participante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pessoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Populacao-Total"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primeiros-Sintomas-Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processo-Resposta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocolos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recuperados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recursos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recursos-Humanos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recursos-Humanos-SC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rede"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rede-Competencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regiao-BR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regional-Saude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regras-Reabertura-Economica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respiradores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risco-Altissimo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risco-Baixo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risco-Controlado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risco-Moderado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semana-Epidemiologica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sintomas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tamanho-Rede"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teste-PCR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Testes-Rapidos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Total-Leitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vacinas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vulnerabilidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Area_Profissional"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Atitudes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Conhecimentos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Data_Obito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Habilidades"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Latitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Longitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Obitos-Novos-BR"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Perfil_Competencias"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Rede"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Sintomas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nLuvas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Area_Profissional"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Atitudes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Conhecimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Data_Obito"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GRANDE_FLORIANOPOLIS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Habilidades"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Latitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Longitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Obitos-Novos-BR"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Perfil_Competencias"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rede"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sintomas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#n-Luvas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Area_Profissional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atitudes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conhecimentos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_Obito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GRANDE_FLORIANOPOLIS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Habilidades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Latitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Longitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Numero-Luvas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obitos-Novos-BR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rede"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sintomas"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Data"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Data"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Data-Contexto"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Data"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Aglomeracoes-Massa"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcool_Gel"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambiente"/>
+        <Class IRI="#Elemento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area-Profissional"/>
+        <Class IRI="#Perfil-Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area-Profissional-SC"/>
+        <Class IRI="#Recursos-Humanos-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atitudes"/>
+        <Class IRI="#Perfil-Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atividades"/>
+        <Class IRI="#Regras-Reabertura-Economica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avental"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CHAR"/>
+        <Class IRI="#Perfil-Participante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casos-Acumulados"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casos-Novos"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centralidade-Grau"/>
+        <Class IRI="#Metricas-ARS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centralidade-Participante"/>
+        <Class IRI="#Metricas-ARS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comorbidades"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conhecimentos"/>
+        <Class IRI="#Perfil-Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coordenacao"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coordenacao-Resposta"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coordenadas"/>
+        <Class IRI="#Espaço"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Covid-19BR"/>
+        <Class IRI="#Situacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criterio-Confirmacao"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data-Contexto"/>
+        <Class IRI="#Tempo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data-Obito"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data-Resultado"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Densidade-Area-Profissional"/>
+        <Class IRI="#Metricas-ARS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Densidade-CHAR"/>
+        <Class IRI="#Metricas-ARS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Densidade-Conhecimento"/>
+        <Class IRI="#Metricas-ARS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Densidade-Conhecimento-Localidade"/>
+        <Class IRI="#Metricas-ARS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desastre"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dominio"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elemento"/>
+        <Class IRI="#Contexto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Em-Acompanhamento"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergencia"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipamento-Usuario"/>
+        <Class IRI="#Contexto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espaço"/>
+        <Class IRI="#Localizacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especialidades"/>
+        <Class IRI="#Area-Profissional-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estado-BR"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estimativa-Lotacao-UTI"/>
+        <Class IRI="#Infraestrutura-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrutura-Comando"/>
+        <Class IRI="#Coordenacao-Resposta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evento"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluxos-Atendimento"/>
+        <Class IRI="#Processo-Resposta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPS"/>
+        <Class IRI="#Espaço"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grupo-Afetado"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grupo-Risco"/>
+        <Class IRI="#Vulnerabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habilidades"/>
+        <Class IRI="#Perfil-Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <Class IRI="#Equipamento-Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospitais"/>
+        <Class IRI="#Infaestrutura-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idade"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identificacao"/>
+        <Class IRI="#Contexto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indices-Risco"/>
+        <Class IRI="#Regras-Reabertura-Economica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infaestrutura-SC"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infraestrutura-BR"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infraestruturas"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insumos"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insumos-BR"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internacao-UTI"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latidude"/>
+        <Class IRI="#Coordenadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leitos-Clinicos"/>
+        <Class IRI="#Infraestrutura-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leitos-UTI"/>
+        <Class IRI="#Infraestrutura-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leitos-UTI-Ativos"/>
+        <Class IRI="#Infaestrutura-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leitos-UTI-Local"/>
+        <Class IRI="#Infraestrutura-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leitos-UTI-necessarios"/>
+        <Class IRI="#Infraestrutura-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Localizacao"/>
+        <Class IRI="#Contexto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Longitude"/>
+        <Class IRI="#Coordenadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luvas"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mascaras"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metricas-ARS"/>
+        <Class IRI="#Rede-Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Municipio"/>
+        <Class IRI="#Regional-Saude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Municipio-BR"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Niveis-Resposta"/>
+        <Class IRI="#Coordenacao-Resposta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel-Risco-Local"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Novos-Leitos-UTI"/>
+        <Class IRI="#Infaestrutura-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Novos-Leitos-UTI-Ativados"/>
+        <Class IRI="#Infaestrutura-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numero-Obitos"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obitos-Novos"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocorrencias-BR"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocorrencias-SC"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oculos"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfil-Competencias"/>
+        <Class IRI="#Rede-Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfil-Participante"/>
+        <Class IRI="#Elemento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pessoa"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Populacao-Total"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primeiros-Sintomas-Data"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processo-Resposta"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protocolos"/>
+        <Class IRI="#Processo-Resposta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recuperados"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recursos"/>
+        <Class IRI="#Ambiente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recursos-Humanos"/>
+        <Class IRI="#Desastres-Emergencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recursos-Humanos-SC"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rede"/>
+        <Class IRI="#Perfil-Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regiao-BR"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regional-Saude"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regras-Reabertura-Economica"/>
+        <Class IRI="#Covid-19BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respiradores"/>
+        <Class IRI="#Infraestrutura-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risco-Altissimo"/>
+        <Class IRI="#Nivel-Risco-Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risco-Baixo"/>
+        <Class IRI="#Nivel-Risco-Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risco-Controlado"/>
+        <Class IRI="#Nivel-Risco-Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risco-Moderado"/>
+        <Class IRI="#Nivel-Risco-Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semana-Epidemiologica"/>
+        <Class IRI="#Ocorrencias-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sexo"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sintomas"/>
+        <Class IRI="#Ocorrencias-SC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situacao"/>
+        <Class IRI="#Contexto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Equipamento-Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamanho-Rede"/>
+        <Class IRI="#Metricas-ARS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempo"/>
+        <Class IRI="#Localizacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teste-PCR"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testes-Rapidos"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Total-Leitos"/>
+        <Class IRI="#Infraestrutura-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touca"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User-ID"/>
+        <Class IRI="#Identificacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vacinas"/>
+        <Class IRI="#Insumos-BR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerabilidade"/>
+        <Class IRI="#Contexto"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Area-Profissional"/>
+        <NamedIndividual IRI="#Area_Profissional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perfil-Competencias"/>
+        <NamedIndividual IRI="#Area_Profissional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atitudes"/>
+        <NamedIndividual IRI="#Atitudes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perfil-Competencias"/>
+        <NamedIndividual IRI="#Atitudes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conhecimentos"/>
+        <NamedIndividual IRI="#Conhecimentos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perfil-Competencias"/>
+        <NamedIndividual IRI="#Conhecimentos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data"/>
+        <NamedIndividual IRI="#Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data-Contexto"/>
+        <NamedIndividual IRI="#Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocorrencias-SC"/>
+        <NamedIndividual IRI="#Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data-Obito"/>
+        <NamedIndividual IRI="#Data_Obito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Municipio"/>
+        <NamedIndividual IRI="#GRANDE_FLORIANOPOLIS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habilidades"/>
+        <NamedIndividual IRI="#Habilidades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perfil-Competencias"/>
+        <NamedIndividual IRI="#Habilidades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data-Obito"/>
+        <NamedIndividual IRI="#Latitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocorrencias-SC"/>
+        <NamedIndividual IRI="#Latitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data-Obito"/>
+        <NamedIndividual IRI="#Longitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocorrencias-SC"/>
+        <NamedIndividual IRI="#Longitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Luvas"/>
+        <NamedIndividual IRI="#Numero-Luvas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Obitos-Novos"/>
+        <NamedIndividual IRI="#Obitos-Novos-BR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perfil-Competencias"/>
+        <NamedIndividual IRI="#Rede"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rede"/>
+        <NamedIndividual IRI="#Rede"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintomas"/>
+        <NamedIndividual IRI="#Sintomas"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Data"/>
+        <NamedIndividual IRI="#Data"/>
+        <Literal datatypeIRI="&xsd;dateTime">08/06/2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Data_Obito"/>
+        <NamedIndividual IRI="#Data_Obito"/>
+        <Literal datatypeIRI="&xsd;dateTime">02/04/2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude"/>
+        <NamedIndividual IRI="#Latitude"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">-2757880592</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude"/>
+        <NamedIndividual IRI="#Longitude"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">-4850902557</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#n-Luvas"/>
+        <NamedIndividual IRI="#Numero-Luvas"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">812096</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Obitos-Novos-BR"/>
+        <NamedIndividual IRI="#Obitos-Novos-BR"/>
+        <Literal datatypeIRI="&xsd;integer">679</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sintomas"/>
+        <NamedIndividual IRI="#Sintomas"/>
+        <Literal datatypeIRI="&rdfs;Literal">TOSSE, DISPNEIA, FEBRE, MIALGIA</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Area_Profissional"/>
+        <ObjectProperty IRI="#Perfil_Competencias"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Atitudes"/>
+        <ObjectProperty IRI="#Perfil_Competencias"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Conhecimentos"/>
+        <ObjectProperty IRI="#Perfil_Competencias"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Data_Obito"/>
+        <ObjectProperty IRI="#Data"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Habilidades"/>
+        <ObjectProperty IRI="#Perfil_Competencias"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Rede"/>
+        <ObjectProperty IRI="#Perfil_Competencias"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Data"/>
+        <Class IRI="#Data"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Obitos-Novos-BR"/>
+        <Class IRI="#Obitos-Novos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nLuvas"/>
+        <Class IRI="#Luvas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Data"/>
+        <Class IRI="#Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Obitos-Novos-BR"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Obitos-Novos-BR"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nLuvas"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#n-Luvas"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Area_Profissional"/>
+        <DataProperty IRI="#Perfil_Competencias"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Atitudes"/>
+        <DataProperty IRI="#Perfil_Competencias"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Conhecimento"/>
+        <DataProperty IRI="#Perfil_Competencias"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Data_Obito"/>
+        <DataProperty IRI="#Data"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#GRANDE_FLORIANOPOLIS"/>
+        <DataProperty IRI="#Data_Obito"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Habilidades"/>
+        <DataProperty IRI="#Perfil_Competencias"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Rede"/>
+        <DataProperty IRI="#Perfil_Competencias"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Data"/>
+        <Class IRI="#Data"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#n-Luvas"/>
+        <Class IRI="#Luvas"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Data"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GRANDE_FLORIANOPOLIS"/>
+        <Datatype abbreviatedIRI="xsd:Name"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Latitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Longitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sintomas"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#n-Luvas"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#n-Luvas</IRI>
+        <IRI>#Luvas</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
